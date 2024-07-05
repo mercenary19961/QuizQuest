@@ -154,5 +154,32 @@
             "options": ["Math.ceil(x, y)", "Math.max(x, y)", "ceil(x, y)", "top(x, y)"],
             "correctAnswer": "Math.max(x, y)"
         }
+    ],
+    "hard_JS": [
+        {
+            "question": "console.log(typeof typeof 1);?",
+            "options": ["string", "number", "1", "true"],
+            "correctAnswer": "string"
+        },
+        {
+            "question": "const numbers = [33, 2, 8];\nnumbers.sort();\nconsole.log(numbers[1]);",
+            "options": ["33", "2", "8", "1"],
+            "correctAnswer": "33"
+        },
+        {
+            "question": "console.log(false == '0');",
+            "options": ["true", "false", "undefined", "error"],
+            "correctAnswer": "true"
+        },
+        {
+            "question": "console.log(0.1 + 0.2 == 0.3);",
+            "options": ["true", "false", "undefined", "error"],
+            "correctAnswer": "false"
+        },
+        {
+            "question": "let array = [1, 2, 3];\narray[6] = 9;\nconsole.log(array[5]);",
+            "options": ["1", "2", "9", "undefined"],
+            "correctAnswer": "undefined"
+        }
     ]
 }
