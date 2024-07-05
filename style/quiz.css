@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 .brand {
     margin-left: 0%;
     color: var(--clr-dark);
+    font-size: var(--size-3xl);
 }
 
 .user_name {
@@ -110,7 +111,7 @@ main {
     border-radius: 6px;
 }
 #question-text{
-    color: var(--clr-white);
+    color: black;
 }
 
 .options {
@@ -174,7 +175,7 @@ main {
 
 .finish {
     background-color: var(--clr-main);
-    color: var(--clr-white);
+    color: black;
     border: none;
     padding: 10px 20px;
     font-size: 18px;
